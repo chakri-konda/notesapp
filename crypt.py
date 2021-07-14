@@ -1,6 +1,6 @@
 from cryptography.fernet import Fernet
 
-key = b'x3cBd0n8proNaQlMjRADy6ZhVR46ulsxQg3TbuZ645s='
+key = b'x3cBd0n8proNaQlMjRADy6ZhVR46ulsxQg3TbuZ645s=' # generated priorly using Ferment.generate_key()
 crypt = Fernet(key)
 
 def encrypted(text):
